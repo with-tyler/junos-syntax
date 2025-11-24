@@ -1,0 +1,108 @@
+/* For preview/reading mode (Prism) */
+.language-junos .token.comment,
+code[class*="language-junos"] .token.comment,
+pre[class*="language-junos"] .token.comment { 
+  color: #6a9955; 
+  font-style: italic; 
+}
+
+.language-junos .token.placeholder,
+code[class*="language-junos"] .token.placeholder { 
+  color: #ff6b35; 
+  font-weight: 700;
+  background-color: rgba(255, 107, 53, 0.12);
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+.language-junos .token.user-input,
+code[class*="language-junos"] .token.user-input { 
+  color: #e67e22; 
+  font-weight: 600;
+  background-color: rgba(230, 126, 34, 0.1);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.language-junos .token.command,
+code[class*="language-junos"] .token.command { 
+  color: #d73a49; 
+  font-weight: 700;
+}
+
+.language-junos .token.interface,
+code[class*="language-junos"] .token.interface { 
+  color: #0366d6; 
+  font-weight: 600; 
+}
+
+.language-junos .token.ip-address,
+code[class*="language-junos"] .token.ip-address { 
+  color: #005cc5; 
+  font-weight: 500;
+}
+
+.language-junos .token.number,
+code[class*="language-junos"] .token.number { 
+  color: #a626a4; 
+  font-weight: 500;
+}
+
+.language-junos .token.string,
+code[class*="language-junos"] .token.string { 
+  color: #22863a; 
+}
+
+/* For editor (CodeMirror) - works with all themes */
+.cm-junos-comment,
+.cm-s-obsidian .cm-junos-comment { 
+  color: #6a9955; 
+  font-style: italic; 
+}
+
+.cm-junos-placeholder,
+.cm-s-obsidian .cm-junos-placeholder { 
+  color: #ff6b35; 
+  font-weight: 700;
+  background-color: rgba(255, 107, 53, 0.12);
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+.cm-junos-user-input,
+.cm-s-obsidian .cm-junos-user-input { 
+  color: #e67e22; 
+  font-weight: 600;
+  background-color: rgba(230, 126, 34, 0.1);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.cm-junos-command,
+.cm-s-obsidian .cm-junos-command { 
+  color: #d73a49; 
+  font-weight: 700;
+}
+
+.cm-junos-interface,
+.cm-s-obsidian .cm-junos-interface { 
+  color: #0366d6; 
+  font-weight: 600; 
+}
+
+.cm-junos-ip-address,
+.cm-s-obsidian .cm-junos-ip-address { 
+  color: #005cc5; 
+  font-weight: 500;
+}
+
+.cm-junos-number,
+.cm-s-obsidian .cm-junos-number { 
+  color: #a626a4; 
+  font-weight: 500;
+}
+
+.cm-junos-string,
+.cm-s-obsidian .cm-junos-string { 
+  color: #22863a; 
+}
